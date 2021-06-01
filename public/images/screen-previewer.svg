@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="243px" height="460px" viewBox="0 0 243 460" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>previewer-asset 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.17264317" y="0.713155412" width="240.061774" height="456.286845" rx="15"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="previewer-asset-2">
+            <g id="previewer-asset">
+                <g id="Rectangle-82" transform="translate(2.000000, 3.000000)">
+                    <g id="path-1-Clipped" transform="translate(0.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <rect id="path-1" stroke="#D6D6D6" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" x="0.17264317" y="0.713155412" width="240.061774" height="456.286845" rx="15"></rect>
+                    </g>
+                </g>
+                <g id="Group-3" transform="translate(115.000000, 12.000000)" fill-rule="nonzero">
+                    <ellipse id="Oval-2" fill="#F4F4F4" cx="6.53067193" cy="6.53181115" rx="6.53067193" ry="6.53181115"></ellipse>
+                    <ellipse id="Oval-2" fill="#D6D6D6" cx="6.98807658" cy="6.21280233" rx="5.43536093" ry="5.43630908"></ellipse>
+                </g>
+                <rect id="Rectangle-84" fill="#D6D6D6" fill-rule="nonzero" x="0" y="118.568962" width="2.89685757" height="12.3137923"></rect>
+                <rect id="Rectangle-84" fill="#D6D6D6" fill-rule="nonzero" x="0" y="138.850502" width="2.89685757" height="12.3137923"></rect>
+                <polygon id="Rectangle-84" fill="#D6D6D6" fill-rule="nonzero" points="175.198299 4 175.198299 0 205.998678 2.22044605e-15 205.998678 4"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
