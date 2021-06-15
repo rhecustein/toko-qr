@@ -32,7 +32,7 @@ class SettingServiceProvider extends ServiceProvider
             config(['app.timezone' => $config['timezone']]);
         }
         if ($siteSetting) {
-            $config['name'] = isset($siteSetting->name) ? $siteSetting->name : 'PicoQR';
+            $config['name'] = isset($siteSetting->name) ? $siteSetting->name : 'TokoQR';
             config(['app.name' => $config['name']]);
         }
     }

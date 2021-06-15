@@ -142,7 +142,7 @@
                                             <div class="form-group">
                                                 <div class="text">
                                                     <p class="mb-1">{{trans('layout.text')}}</p>
-                                                    <input id="qrText" type="text" class="form-control" value="PicoQR">
+                                                    <input id="qrText" type="text" class="form-control" value="TokoQR">
                                                 </div>
                                             </div>
                                         </div>
@@ -162,7 +162,7 @@
                                             <div class="color-pick-as">
                                                 <label class="mb-1">{{trans('layout.image')}}</label>
                                                 <div class="d-none">
-                                                    <img src="{{asset('images/picoqr.PNG')}}" alt="picoqr image"
+                                                    <img src="{{asset('images/picoqr.PNG')}}" alt="Toko QR image"
                                                          id="qrPreImage">
                                                 </div>
                                                 <input id="qrImage" accept="image/*" type="file" class="form-control">

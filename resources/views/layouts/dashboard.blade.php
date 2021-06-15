@@ -199,8 +199,7 @@
             @if(isset($customFooter))
                 {{$customFooter}}
             @else
-                <p>{{trans('layout.copyright_footer')}} <a href="//picotech.com.bd" target="_blank">Pico
-                        Technology</a> {{date('Y')}}</p>
+                <p>{{trans('layout.copyright_footer')}} <a href="#" target="_blank">Toko QR</a> {{date('Y')}}</p>
             @endif
         </div>
     </div>

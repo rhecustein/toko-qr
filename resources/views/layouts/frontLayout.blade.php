@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="PicoQR - A simple restaurant menu maker.">
+    <meta name="description" content="Toko QR - Pembuat Toko Digital Sederhana">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content=""/> <!-- website name -->
@@ -18,7 +18,7 @@
     <meta property="og:type" content="article"/>
 
     <!-- Website Title -->
-    <title>PicoQR - A simple restaurant menu maker</title>
+    <title>Toko QR - Pembuat Toko Digital Sederhana</title>
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext"
@@ -41,7 +41,7 @@
 
         <!-- Image Logo -->
         <a class="navbar-brand logo-image" href="{{route('index')}}"><img
-                src="{{asset('uploads/'.json_decode(get_settings('site_setting'))->logo)}}" alt="alternative"></a>
+                src="{{asset('front/images/logotokoqr-removebg-preview.png')}}" alt="alternative"></a>
 
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
@@ -82,16 +82,16 @@
             <div class="row">
                 <div class="col-lg-6 col-xl-5">
                     <div class="text-container">
-                        <h1>PicoQR</h1>
-                        <p class="p-large">A Simple Restaurant Menu Maker</p>
+                        <h1>Toko QR</h1>
+                        <p class="p-large">Pembuat Menu Digital Sederhana</p>
                         <a target="_blank" class="btn-solid-lg page-scroll"
-                           href="{{route('registration')}}">{{trans('layout.signup')}}</a>
+                           href="{{route('registration')}}">Buat Menu Sendiri</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-7">
                     <div class="image-container">
                         <div class="img-wrapper">
-                            <img class="img-fluid" src="{{asset('front/images/picoqr.png')}}" alt="alternative">
+                            <img class="img-fluid" src="{{asset('front/images/logotokoqr.png')}}" alt="alternative">
                         </div> <!-- end of img-wrapper -->
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
@@ -103,7 +103,7 @@
      viewBox="0 0 1920 310">
     <defs>
         <style>.cls-1 {
-                fill: #5f4def;
+                fill: #26b99d;
             }</style>
     </defs>
     <title>header-frame</title>
@@ -120,7 +120,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="above-heading">---------------</div>
-                <h2 class="h2-heading">This is the most flexible and user friendly digital menu maker ever!</h2>
+                <h2 class="h2-heading">Ini adalah pembuat menu digital paling fleksibel dan ramah pengguna yang pernah ada!</h2>
             </div> <!-- end of col -->
         </div> <!-- end of row -->
         <div class="row">
@@ -132,9 +132,9 @@
                         <img class="img-fluid" src="{{asset('front/images/description-1.png')}}" alt="alternative">
                     </div>
                     <div class="card-body">
-                        <h4 class="card-title">Simple & Attractive Design </h4>
-                        <p>PicoQR is very easy to use with Simple and colorful design. Make your profile, create your
-                            menu and good to go. </p>
+                        <h4 class="card-title">Desain Sederhana & Menarik </h4>
+                        <p>TokoQR sangat mudah digunakan dengan desain yang sederhana dan penuh warna. Buat profil Anda, buat profil Anda
+                            menu dan baik untuk pergi. </p>
                     </div>
                 </div>
                 <!-- end of card -->
@@ -145,8 +145,8 @@
                         <img class="img-fluid" src="{{asset('front/images/description-2.png')}}" alt="alternative">
                     </div>
                     <div class="card-body">
-                        <h4 class="card-title">Generate QR & Design</h4>
-                        <p>You can generate your own design QR code and download the image.</p>
+                        <h4 class="card-title">Hasilkan QR & Desain</h4>
+                        <p>Anda dapat membuat kode QR desain Anda sendiri dan mengunduh gambarnya.</p>
                     </div>
                 </div>
                 <!-- end of card -->
@@ -157,8 +157,8 @@
                         <img class="img-fluid" src="{{asset('front/images/description-3.png')}}" alt="alternative">
                     </div>
                     <div class="card-body">
-                        <h4 class="card-title">Getting Live</h4>
-                        <p>Create your own menu with self design QR Code. </p>
+                        <h4 class="card-title">Mendapatkan Live</h4>
+                        <p>Buat menu Anda sendiri dengan Kode QR desain sendiri. </p>
                     </div>
                 </div>
                 <!-- end of card -->
@@ -176,8 +176,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="text-container">
-                    <h2>Scan QR Code To See The DEMO</h2>
-                    <p>To see the live demo just scan QR code by your phone camera or QR code scanner. </p>
+                    <h2>Pindai Kode QR Untuk Melihat DEMO</h2>
+                    <p>Untuk melihat demo langsung, cukup pindai kode QR dengan kamera ponsel atau pemindai kode QR Anda. </p>
                     <a class="btn-solid-reg page-scroll" href="{{route('registration')}}">{{trans('layout.signup')}}</a>
                 </div> <!-- end of text-container -->
             </div> <!-- end of col -->
@@ -197,7 +197,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="h2-heading">Pricing Options Table</h2>
+                <h2 class="h2-heading">Tabel Pilihan Harga</h2>
             </div> <!-- end of col -->
         </div> <!-- end of row -->
         <div class="row">
@@ -268,90 +268,6 @@
 <!-- end of pricing -->
 
 
-<!-- Testimonials -->
-<div class="slider-2">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-
-                <!-- Text Slider -->
-                <div class="slider-container">
-                    <div class="swiper-container text-slider">
-                        <div class="swiper-wrapper">
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="image-wrapper">
-                                    <img class="img-fluid" src="{{asset('front/images/profile.png')}}"
-                                         alt="alternative">
-                                </div> <!-- end of image-wrapper -->
-                                <div class="text-wrapper">
-                                    <div class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit. Mauris ac facilisis nisi, sit amet volutpat urna. Donec blandit arcu eu
-                                        sem varius semper. Aliquam fermentum urna a nunc gravida accumsan. Nulla
-                                        malesuada porta purus, at fringilla massa tempor sit amet. Maecenas eget ex
-                                        euismod velit elementum accumsan. Nam elementum massa nec elit varius, non
-                                        bibendum leo cursus. Suspendisse potenti. Nulla mattis ac risus ut luctus.
-                                    </div>
-                                    <div class="testimonial-author">Raqibul Hasan - CEO</div>
-                                </div> <!-- end of text-wrapper -->
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="image-wrapper">
-                                    <img class="img-fluid" src="{{asset('front/images/profile.png')}}"
-                                         alt="alternative">
-                                </div> <!-- end of image-wrapper -->
-                                <div class="text-wrapper">
-                                    <div class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit. Mauris ac facilisis nisi, sit amet volutpat urna. Donec blandit arcu eu
-                                        sem varius semper. Aliquam fermentum urna a nunc gravida accumsan. Nulla
-                                        malesuada porta purus, at fringilla massa tempor sit amet. Maecenas eget ex
-                                        euismod velit elementum accumsan. Nam elementum massa nec elit varius, non
-                                        bibendum leo cursus. Suspendisse potenti. Nulla mattis ac risus ut luctus.
-                                    </div>
-                                    <div class="testimonial-author">Tuhin Hossian - CEO</div>
-                                </div> <!-- end of text-wrapper -->
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="image-wrapper">
-                                    <img class="img-fluid" src="{{asset('front/images/profile.png')}}"
-                                         alt="alternative">
-                                </div> <!-- end of image-wrapper -->
-                                <div class="text-wrapper">
-                                    <div class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit. Mauris ac facilisis nisi, sit amet volutpat urna. Donec blandit arcu eu
-                                        sem varius semper. Aliquam fermentum urna a nunc gravida accumsan. Nulla
-                                        malesuada porta purus, at fringilla massa tempor sit amet. Maecenas eget ex
-                                        euismod velit elementum accumsan. Nam elementum massa nec elit varius, non
-                                        bibendum leo cursus. Suspendisse potenti. Nulla mattis ac risus ut luctus.
-                                    </div>
-                                    <div class="testimonial-author">Hridoy Hasan - Online Marketer</div>
-                                </div> <!-- end of text-wrapper -->
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                        </div> <!-- end of swiper-wrapper -->
-
-                        <!-- Add Arrows -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <!-- end of add arrows -->
-
-                    </div> <!-- end of swiper-container -->
-                </div> <!-- end of slider-container -->
-                <!-- end of text slider -->
-
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of slider-2 -->
-<!-- end of testimonials -->
 
 
 <!-- Newsletter -->
@@ -361,7 +277,7 @@
             <div class="col-lg-12">
                 <div class="text-container">
                     <div class="above-heading">NEWSLETTER</div>
-                    <h2>Stay Updated With The Latest News</h2>
+                    <h2>Tetap Update Dengan Berita Terbaru</h2>
 
                     <!-- Newsletter Form -->
                     <form method="post" action="{{route('subscribe')}}" id="newsletterForm" data-toggle="validator" data-focus="false">
@@ -435,7 +351,7 @@
      viewBox="0 0 1920 79">
     <defs>
         <style>.cls-2 {
-                fill: #5f4def;
+                fill: #26b99d;
             }</style>
     </defs>
     <title>footer-frame</title>
@@ -448,7 +364,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="footer-col first">
-                    <h4>About PicoQR</h4>
+                    <h4>Tentang Toko QR</h4>
                     <p class="p-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac facilisis
                         nisi, sit amet volutpat urna.</p>
                 </div>
